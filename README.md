@@ -4,6 +4,11 @@
 
 ## Build Setup
 
+note to myself... I removed the two depencencies, and I have not retried to recompile all without :
+- "node-sass": "^4.7.2",
+- "sass-loader": "^6.0.6",
+
+
 ``` bash
 # install dependencies
 npm install
