@@ -6,10 +6,10 @@
 
 <script>
 export default {
-  name: 'Home',
+  name: 'Resume',
   data () {
     return {
-      msg: `There's always a beginning to everything ;).`
+      msg: `Resume.`
     }
   }
 }
