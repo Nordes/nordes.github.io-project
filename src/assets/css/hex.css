@@ -3,11 +3,11 @@
   position: relative;
   width: 300px; 
   height: 173.21px;
-  background-color: #dae3f9;
+  background-color: #1b9f46; /* dae3f9 */
   margin: 86.60px 0;
   box-shadow: 0 0 20px rgba(127,127,127,0.75);
-  border-left: solid 1px #cccccc;
-  border-right: solid 1px #cccccc;
+  border-left: solid 1px #666;
+  border-right: solid 1px #666;
 }
 
 .hexagon:before,
@@ -22,19 +22,19 @@
   transform: scaleY(0.5774) rotate(-45deg);
   background-color: inherit;
   left: 42.9340px;
-  box-shadow: 0 0 20px rgba(127,127,127,0.75);
+  box-shadow: 0 0 40px rgba(5,127,127,0.99);
 }
 
 .hexagon:before {
   top: -106.0660px;
-  border-top: solid 1.4142px #cccccc;
-  border-right: solid 1.4142px #cccccc;
+  border-top: solid 1.4142px #666;
+  border-right: solid 1.4142px #666;
 }
 
 .hexagon:after {
   bottom: -106.0660px;
-  border-bottom: solid 1.4142px #cccccc;
-  border-left: solid 1.4142px #cccccc;
+  border-bottom: solid 1.4142px #666;
+  border-left: solid 1.4142px #666;
 }
 
 /*cover up extra shadows*/
@@ -54,11 +54,11 @@
   position: relative;
   width: 300px; 
   height: 173.21px;
-  background-color: #f7f0cd;
+  background-color: #1f7fAb; /* f7f0cd */
   margin: 86.60px 0;
   box-shadow: 0 0 20px rgba(127,127,127,0.75);
-  border-left: solid 1px #cccccc;
-  border-right: solid 1px #cccccc;
+  border-left: solid 1px #666;
+  border-right: solid 1px #666;
 }
 
 .hexAlt:before,
@@ -73,19 +73,19 @@
   transform: scaleY(0.5774) rotate(-45deg);
   background-color: inherit;
   left: 42.9340px;
-  box-shadow: 0 0 20px rgba(127,127,127,0.75);
+  box-shadow: 0 0 40px rgba(5,127,127,0.99);
 }
 
 .hexAlt:before {
   top: -106.0660px;
-  border-top: solid 1.4142px #cccccc;
-  border-right: solid 1.4142px #cccccc;
+  border-top: solid 1.4142px #666;
+  border-right: solid 1.4142px #666;
 }
 
 .hexAlt:after {
   bottom: -106.0660px;
-  border-bottom: solid 1.4142px #cccccc;
-  border-left: solid 1.4142px #cccccc;
+  border-bottom: solid 1.4142px #666;
+  border-left: solid 1.4142px #666;
 }
 
 /*cover up extra shadows*/
