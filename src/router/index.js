@@ -1,6 +1,6 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import Home from '@/components/Home'
+import Projects from '@/components/Projects'
 import ReachMe from '@/components/ReachMe'
 import Resume from '@/components/Resume'
 
@@ -10,13 +10,13 @@ export default new Router({
   routes: [
     {
       path: '/',
-      name: 'Home',
-      component: Home
+      name: 'Projects',
+      component: Projects
     },
     {
-      path: '/Home',
-      name: 'Home',
-      component: Home
+      path: '/Projects',
+      name: 'Projects',
+      component: Projects
     },
     {
       path: '/ReachMe',

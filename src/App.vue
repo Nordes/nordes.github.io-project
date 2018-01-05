@@ -8,7 +8,7 @@
 
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
-          <li :class="activeLinkClass('Home')">
+          <li :class="activeLinkClass('Projects')">
             <router-link class="nav-link" to="/">Projects</router-link>
           </li>
           <!-- <li class="nav-item">
@@ -43,6 +43,7 @@ export default {
   }
 }
 </script>
+<style src="../src/assets/css/hex.css"></style>
 <style lang="scss">
   @import "./assets/scss/bootstrap_custom.scss";
   @import "../node_modules/bootstrap/scss/bootstrap.scss";

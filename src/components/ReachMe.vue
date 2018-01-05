@@ -9,7 +9,7 @@ export default {
   name: 'ReachMe',
   data () {
     return {
-      msg: `Reach me.`
+      msg: `It's under construction... however... just try to reach me through github or from linkedIn.`
     }
   }
 }
