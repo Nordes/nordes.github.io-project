@@ -8,16 +8,16 @@
 
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
-          <li class="nav-item active">
+          <li :class="activeLinkClass('Home')">
             <router-link class="nav-link" to="/">Projects</router-link>
           </li>
           <!-- <li class="nav-item">
             <a class="nav-link" href="#">Projects I find interesting</a>
           </li> -->
-          <li class="nav-item">
+          <li :class="activeLinkClass('Resume')">
             <router-link class="nav-link" to="/Resume">Resume (CV)</router-link>
           </li>
-          <li class="nav-item">
+          <li :class="activeLinkClass('ReachMe')">
             <router-link class="nav-link" to="/ReachMe">How to reach me</router-link>
           </li>
         </ul>
@@ -31,7 +31,16 @@
 
 <script>
 export default {
-  name: 'app'
+  name: 'app',
+  methods: {
+    activeLinkClass (current) {
+      if (this.$route.name === current) {
+        return 'nav-item active'
+      }
+
+      return 'nav-item'
+    }
+  }
 }
 </script>
 <style lang="scss">
