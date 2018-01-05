@@ -1,5 +1,6 @@
 <template>
   <div class="container">
+    Tech / Job
     <div class="row py-2 px-5">
       <div style="margin-top:40px;">
       <div class="hexagon" style="float:left; margin-left: 25px;"><span></span></div>
