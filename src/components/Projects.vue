@@ -26,13 +26,21 @@ export default {
     return {
       projects: [
         {
-          name: 'NewRelic.AzureStorageQueueSize.Plugin'
+          name: 'Nordes.IdentityServer.Ldap',
+          description: 'Ldap plugin for IdentityServer (Not published)',
+          link: null
         },
         {
-          name: 'websocket.experiments.to.socket.io'
+          name: 'NewRelic.AzureStorageQueueSize.Plugin',
+          description: 'Push the Azure Storage Queue Size towards NewRelic in order to have stats',
+          link: ''
+        },
+        {
+          name: 'websocket.experiments.to.socket.io',
+          description: 'Socket.IO does not pass through proxy, so to connect to a Socket.IO server I build that client',
+          link: ''
         }
-      ],
-      msg: `There's always a beginning to everything ;).`
+      ]
     }
   }
 }
