@@ -3,7 +3,7 @@
     <div class="text-center">
       <h4>{{ title }}</h4>
       <strong v-if="content">Description: </strong>
-      <small v-if="content">{{ content }}</small>
+      <small v-if="content">{{ content }}</small><br>
       <a v-if="link" :href="link" class="badge badge-dark">More details...</a>
     </div>
   </div>

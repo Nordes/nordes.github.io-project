@@ -18,7 +18,7 @@
     },
     props: {
       items: {
-        type: Object,
+        type: Array,
         required: true
       },
       alternate: {

@@ -28,7 +28,15 @@ export default {
   },
   data () {
     return {
-      stuff: [ {title: 'Konica Minolta'}, {title: 'CX Company'}, {title: 'onePoint'}, {title: 'IsaiX'}, {title: 'Desjardins'}, {}, {}, {} ]
+      stuff: [
+        {title: 'Konica Minolta', description: 'R&D in Itami/Japan', link: 'https://www.linkedin.com/in/nordes/'},
+        {title: 'CX Company', description: 'Team Lead in Maastricht/Netherlands', link: 'https://www.linkedin.com/in/nordes/'},
+        {title: 'onePoint', description: 'Senior Dev/DBA/Architect in Bordeaux/France', link: 'https://www.linkedin.com/in/nordes/'},
+        {title: 'IsaiX', description: 'Dev in Montreal/Canada', link: 'https://www.linkedin.com/in/nordes/'},
+        {title: 'Desjardins', description: 'Dev in Montreal/Canada', link: 'https://www.linkedin.com/in/nordes/'},
+        {title: 'C@M Internet', description: 'Tech Support Supervisor in Montreal/Canada', link: 'https://www.linkedin.com/in/nordes/'},
+        {title: 'Coredium Inc.', description: 'Dev in Montreal/Canada', link: 'https://www.linkedin.com/in/nordes/'},
+        {title: 'C@M Internet', description: 'Tech Support in Montreal/Canada', link: 'https://www.linkedin.com/in/nordes/'}]
     }
   }
 }

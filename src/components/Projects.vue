@@ -1,5 +1,12 @@
 <template>
   <div class="container">
+    <div class="row">
+      <h3>Preface</h3>
+      <p>As you know, while working in a company I most likely work only for the company and building projects out of it is quite difficult. However, I try to contribute to other projects when I can and also try to do small PoC that I don't always keep on Github.</p>
+    </div>
+    <div class="row">
+      <h3>Projects</h3>
+    </div>
     <div class="row pt-2">
       <div class="col col-lg-12 text-center" style="margin-top:20px;">
         <hex-row :items="projects.slice(0,3)" />
@@ -45,12 +52,12 @@ export default {
           link: 'https://github.com/Nordes/websocket.experiments.to.socket.io'
         },
         {
-          title: 'To come...',
+          title: 'To come... bot... framework ;)',
           description: '',
           link: null
         },
         {
-          title: 'To come...',
+          title: 'To come... ... ...',
           description: '',
           link: null
         },

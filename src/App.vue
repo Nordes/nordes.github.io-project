@@ -11,6 +11,9 @@
           <li :class="activeLinkClass('Projects')">
             <router-link class="nav-link" to="/">Projects</router-link>
           </li>
+          <li :class="activeLinkClass('Tech')">
+            <router-link class="nav-link" to="/Tech">Tech</router-link>
+          </li>
           <!-- <li class="nav-item">
             <a class="nav-link" href="#">Projects I find interesting</a>
           </li> -->
