@@ -15,11 +15,6 @@ export default new Router({
       component: Projects
     },
     {
-      path: '/Projects',
-      name: 'Projects',
-      component: Projects
-    },
-    {
       path: '/ReachMe',
       name: 'ReachMe',
       component: ReachMe

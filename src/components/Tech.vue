@@ -40,7 +40,7 @@ export default {
       projects: [
         {
           title: 'C#/.Net',
-          description: `I've started using .Net FrameWork 2 and I used it for building all type of applications running on Windows, Windows Server or even Azure`,
+          description: `I've started using .Net FrameWork 2 until the latest framework. I used it for building all type of applications running on Windows, Windows Server or even Azure`,
           link: null
         },
         {

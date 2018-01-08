@@ -1,5 +1,5 @@
 <template>
-  <div :class="getHexClass()" style=" margin-left: 25px; display: inline-block;">
+  <div :class="getHexClass() + ' hexSpacer'">
     <div class="text-center">
       <h4>{{ title }}</h4>
       <strong v-if="content">Description: </strong>
@@ -8,6 +8,14 @@
     </div>
   </div>
 </template>
+
+<style scoped>
+.hexSpacer {
+  margin-left: 20px;
+  margin-right:20;
+  display: inline-block;
+}
+</style>
 
 <script>
   export default {

@@ -2,6 +2,8 @@
   <div class="container">
     <div class="row">
       <h3>Preface</h3>
+    </div>
+    <div class="row">
       <p>As you know, while working in a company I most likely work only for the company and building projects out of it is quite difficult. However, I try to contribute to other projects when I can and also try to do small PoC that I don't always keep on Github.</p>
     </div>
     <div class="row">
