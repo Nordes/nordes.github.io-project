@@ -23,9 +23,7 @@
         </ul>
       </div>
     </nav>
-    <div class="container-flex">
-      <router-view/>
-    </div>
+    <router-view/>
   </div>
 </template>
 

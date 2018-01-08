@@ -1,20 +1,20 @@
 <template>
   <div class="container">
-    Tech / Job
-    <div class="row py-2 px-5">
-      <div style="margin-top:40px;">
-      <div class="hexagon" style="float:left; margin-left: 25px;"><span></span></div>
-      <div class="hexAlt" style="float:left; margin-left: 25px;"><span></span></div>
-      <div class="hexagon" style="float:left; margin-left: 25px;"><span></span></div>
+    <!-- Left bar options? Tech / Job -->
+    <div class="row pt-2">
+      <div class="col col-lg-12 text-center" style="margin-top:20px;">
+        <hex-row :items="stuff.slice(0,3)" revert />
       </div>
-      <div style="margin-top:-60px; margin-left: 160px"> <!--160-->
-      <div class="hexAlt" style="float:left; margin-left: 25px;"><span></span></div>
-      <div class="hexAlt" style="float:left; margin-left: 25px;"><span></span></div>
+    </div>
+    <div class="row">
+      <!-- Push left -->
+      <div class="col col-lg-12 text-center" > <!--style="margin-top:-60px;" + left 160-->
+        <hex-row :items="stuff.slice(3,5)" :alternate="false" />
       </div>
-      <div style="margin-top:-60px;">
-      <div class="hexagon" style="float:left; margin-left: 25px;"><span></span></div>
-      <div class="hexAlt" style="float:left; margin-left: 25px;"><span></span></div>
-      <div class="hexagon" style="float:left; margin-left: 25px;"><span></span></div>
+    </div>
+    <div class="row">
+      <div class="col col-lg-12 text-center">
+        <hex-row :items="stuff.slice(5,8)" revert/>
       </div>
     </div>
   </div>
@@ -23,28 +23,13 @@
 <script>
 export default {
   name: 'Resume',
+  components: {
+    'hex-row': () => import('@/components/ui.tools/HexRow')
+  },
   data () {
     return {
-      msg: `Resume.`
+      stuff: [ {title: 'Konica Minolta'}, {title: 'CX Company'}, {title: 'onePoint'}, {title: 'IsaiX'}, {title: 'Desjardins'}, {}, {}, {} ]
     }
   }
 }
 </script>
-
-<!-- Add "scoped" attribute to limit CSS to this component only -->
-<style scoped>
-h1, h2 {
-  font-weight: normal;
-}
-ul {
-  list-style-type: none;
-  padding: 0;
-}
-li {
-  display: inline-block;
-  margin: 0 10px;
-}
-a {
-  color: #42b983;
-}
-</style>
