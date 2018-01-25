@@ -39,13 +39,22 @@ export default {
     return {
       projects: [
         {
-          title: 'Nordes IdentityServer Ldap',
-          description: 'Ldap plugin for IdentityServer (Not published)',
+          title: 'IdentityServer Ldap MiddleWare',
+          description: 'Ldap middleware/plugin for IdentityServer (Not published)',
           link: null
         },
         {
+          title: 'OIDC-JWKs-Verify',
+          description: `Node access token (OpenID) validation library. 
+                        This have been tested with IdentityServer<br>
+                        <img src="https://coveralls.io/repos/github/Nordes/oidc-jwks-verify/badge.svg?branch=master">
+                        <a href="https://badge.fury.io/js/oidc-jwks-verify"><img src="https://badge.fury.io/js/oidc-jwks-verify.svg"></a>`,
+          link: 'https://github.com/Nordes/oidc-jwks-verify'
+        },
+        {
           title: 'NewRelic AzureStorageQueueSize Plugin',
-          description: 'Push the Azure Storage Queue Size towards NewRelic in order to have stats',
+          description: `Push the Azure Storage Queue Size towards NewRelic in order to have stats.<br>
+                        <a href="https://ci.appveyor.com/project/Nordes/newrelic-azurestoragequeue-agent"><img src="https://ci.appveyor.com/api/projects/status/cvbh3t0775gb6rj8?svg=true"></a>`,
           link: 'https://github.com/Nordes/NewRelic.AzureStorageQueueSize.Plugin'
         },
         {
@@ -55,11 +64,6 @@ export default {
         },
         {
           title: 'To come... bot... framework ;)',
-          description: '',
-          link: null
-        },
-        {
-          title: 'To come... ... ...',
           description: '',
           link: null
         },

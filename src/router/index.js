@@ -8,6 +8,7 @@ import Tech from '@/components/Tech'
 Vue.use(Router)
 
 export default new Router({
+  mode: 'history',
   routes: [
     {
       path: '/',
