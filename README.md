@@ -12,4 +12,5 @@ Basic front-end of the github pages.
 * Hex created using http://csshexagon.com/ (The idea is to build a beehive)
 
 
-Note to myself... I could also add some flipping in the hexagons.
+> Note to myself... I could also add some flipping in the hexagons.
+> Also... add I18n (Fr, En... maybe Jp)

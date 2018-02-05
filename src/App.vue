@@ -8,25 +8,37 @@
 
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
-          <li :class="activeLinkClass('Projects')">
+          <li :class="'nav-item' + activeLinkClass('Projects')">
             <router-link class="nav-link" to="/">Projects</router-link>
           </li>
-          <li :class="activeLinkClass('Tech')">
+          <li :class="'nav-item' + activeLinkClass('Tech')">
             <router-link class="nav-link" to="/Tech">Tech</router-link>
           </li>
           <!-- <li class="nav-item">
             <a class="nav-link" href="#">Projects I find interesting</a>
           </li> -->
-          <li :class="activeLinkClass('Resume')">
+          <li :class="'nav-item' + activeLinkClass('Resume')">
             <router-link class="nav-link" to="/Resume">Resume (CV)</router-link>
           </li>
-          <li :class="activeLinkClass('ReachMe')">
+          <li :class="'nav-item' + activeLinkClass('ReachMe')">
             <router-link class="nav-link" to="/ReachMe">How to reach me</router-link>
+          </li>
+          <li :class="'nav-item' + activeLinkClass('Articles') + activeLinkClass('Article')">
+            <router-link class="nav-link" to="/Articles">Articles</router-link>
           </li>
         </ul>
       </div>
     </nav>
     <router-view/>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="row">
+          <span>Copyright &copy;2018 by Nordès Ménard-Lamarre</span>
+        </div>
+      </div>
+  </footer> 
+
   </div>
 </template>
 
@@ -36,10 +48,10 @@ export default {
   methods: {
     activeLinkClass (current) {
       if (this.$route.name === current) {
-        return 'nav-item active'
+        return ' active'
       }
 
-      return 'nav-item'
+      return ''
     }
   }
 }
@@ -54,5 +66,27 @@ export default {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-size: 80%;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  margin-bottom: 60px; /* Margin bottom by footer height */
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 60px;
+  line-height: 60px; /* Vertically center the text there */
+  background: linear-gradient(#ffffffff, #8C7B7B);
 }
 </style>
