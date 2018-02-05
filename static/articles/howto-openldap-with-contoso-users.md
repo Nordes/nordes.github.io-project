@@ -208,7 +208,7 @@ Our action parameter will be using the following:
 
 The output result when launching the command are describing what's happening. By example
 
-```
+```sh
 ...
 adding new entry "cn=Josh Edwards,ou=users,dc=contoso,dc=com"
 modifying entry "cn=Sales,ou=groups,dc=contoso,dc=com"
