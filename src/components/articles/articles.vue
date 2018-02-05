@@ -1,6 +1,6 @@
 <template>
   <div class="container mt-3">
-    <div class="row text-white" style="height:240px; background-image: url(./static/images/articles_top.jpg); background-repeat: no-repeat;">
+    <div class="row text-white" style="height:240px; background-image: url(./static/images/articles_top.png); background-repeat: no-repeat;">
       <div class="col-12 pt-3 text-center">
         <h1>Articles</h1>
       </div>
