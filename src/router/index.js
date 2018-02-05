@@ -10,7 +10,7 @@ import articles from '@/components/articles/articles'
 Vue.use(Router)
 
 export default new Router({
-  mode: 'history',
+  // mode: 'history', // Does not work on github
   routes: [
     {
       path: '/',
