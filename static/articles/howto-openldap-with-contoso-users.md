@@ -1,6 +1,6 @@
-___First draft___
+___Second draft___
 # Objectives
-This is a multi-part tutorial or learning guide in order to build, for dev or for some of your needs, an integration of:
+This is a multi-part tutorial playground in order to build, for dev or for some of your needs, an integration of:
 
 - __[Part I*]__ `OpenLdap` (Or active directory) with Contoso Users
 - __[Part II]__ `IdentityServer 4` (Built in Dotnet Core 2.x)
@@ -218,32 +218,33 @@ modifying entry "cn=Sales,ou=groups,dc=contoso,dc=com"
 _(If you are too lazy to type the commands, you can copy the batch file located at the same emplacement as the 3 previous downloads)_
 
 ##### Organisation Units
+PowerShell uses the back tick &#96; for multiline, however on linux it will be \ character.
 ```sh
-$ docker exec contosoOpenLdap ldapmodify /
-  -a -x -h localhost -p 389 /
-  -D "cn=admin,dc=contoso,dc=com" /
-  -f /data/ldif/00-startup.ldif /
-  -w P@ss1W0Rd! /
+$ docker exec contosoOpenLdap ldapmodify \
+  -a -x -h localhost -p 389 \
+  -D "cn=admin,dc=contoso,dc=com" \
+  -f /data/ldif/00-startup.ldif \
+  -w P@ss1W0Rd! \
   -c 
 ```
 
 #### Groups
 ```sh
-$ docker exec contosoOpenLdap ldapmodify /
-  -a -x -h localhost -p 389 / 
-  -D "cn=admin,dc=contoso,dc=com" /
-  -f /data/ldif/01-output-groups.ldif /
-  -w P@ss1W0Rd! /
+$ docker exec contosoOpenLdap ldapmodify \
+  -a -x -h localhost -p 389 \
+  -D "cn=admin,dc=contoso,dc=com" \
+  -f /data/ldif/01-output-groups.ldif \
+  -w P@ss1W0Rd! \
   -c 
 ```
 
 #### Users and membership
 ```sh
-$ docker exec contosoOpenLdap ldapmodify /
-  -a -x -h localhost -p 389 / 
-  -D "cn=admin,dc=contoso,dc=com" /
-  -f /data/ldif/02-output-users.ldif /
-  -w P@ss1W0Rd! /
+$ docker exec contosoOpenLdap ldapmodify \
+  -a -x -h localhost -p 389 \
+  -D "cn=admin,dc=contoso,dc=com" \
+  -f /data/ldif/02-output-users.ldif \
+  -w P@ss1W0Rd! \
   -c 
 ```
 
