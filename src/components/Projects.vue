@@ -39,9 +39,9 @@ export default {
     return {
       projects: [
         {
-          title: 'IdentityServer Ldap MiddleWare',
-          description: 'Ldap middleware/plugin for IdentityServer (Not published)',
-          link: null
+          title: 'IdentityServer4.LdapExtension',
+          description: 'Ldap plugin for IdentityServer 4',
+          link: 'https://github.com/Nordes/IdentityServer4.LdapExtension'
         },
         {
           title: 'OIDC-JWKs-Verify',

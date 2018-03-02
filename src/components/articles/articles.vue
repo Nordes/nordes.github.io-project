@@ -8,6 +8,9 @@
     <div class="row">
       <router-link class="nav-link" to="/Articles/howto-openldap-with-contoso-users">[Part I of V] How to create your own Ldap (OpenLdap) with Contoso users</router-link>
     </div>
+    <div class="row">
+      <router-link class="nav-link" to="/Articles/2018-03-02_OpenLdap-with-IdentityServer4">[Part 2 of V] IdentityServer 4 with OpenLdap (Built in Dotnet Core 2.x)</router-link>
+    </div>
   </div>
 </template>
 
@@ -16,13 +19,6 @@ export default {
   name: 'Articles',
   data () {
     return {
-      items: [
-        {
-          title: 'test',
-          path: 'test',
-          description: 'something'
-        }
-      ]
     }
   }
 }

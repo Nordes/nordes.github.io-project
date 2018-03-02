@@ -1,9 +1,8 @@
-___Second draft___
 # Objectives
 This is a multi-part tutorial playground in order to build, for dev or for some of your needs, an integration of:
 
 - __[Part I*]__ `OpenLdap` (Or active directory) with Contoso Users
-- __[Part II]__ `IdentityServer 4` (Built in Dotnet Core 2.x)
+- [__[Part II]__ `IdentityServer 4` with OpenLdap (Built in Dotnet Core 2.x)](/Articles/2018-03-02_OpenLdap-with-IdentityServer4)
   - Option of using `Redis` to persist user cache (tokens)
 - __[Part III]__ `Docker` to run the previous two options all together (If not already explained in previous 2)
 - __[Part IV]__ A small back-end with protected Api's
